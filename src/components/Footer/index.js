@@ -14,7 +14,7 @@ const Footer = () => {
             <EmailIcon onClick={() => window.location = 'mailto:christinelin.7771@gmail.com'}/>
     
         </div>
-        <p> &copy; 2023 christinelin.com</p>
+        <p> &copy; 2024 CS Kickstart</p>
     </div>
   )
 }
