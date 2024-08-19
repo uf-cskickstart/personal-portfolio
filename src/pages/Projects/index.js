@@ -8,7 +8,7 @@ const Projects = () => {
     <div className = "projects">
       <h1>My Projects</h1>
       <div className='projectList'>
-        {/* TODO: Explain what this does. Be sure to look at components/ProjectItem as well! */}
+        {/* TODO: Explain what this does. Be sure to look at data/ProjectList.js and components/ProjectItem as well! */}
          {ProjectList.map((item, index) => {
             return <ProjectItem id ={index} title={item.name} image={item.image}/>
          })}
