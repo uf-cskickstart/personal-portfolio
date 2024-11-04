@@ -7,7 +7,7 @@ import './Home.css'
 const Home = () => {
   return (
     <div className="home">
-      <div className="about">
+      <div className="intro">
 
         {/* TODO: Add a headline */}
         {/* <h2>Text Here<h2> */}
@@ -27,11 +27,7 @@ const Home = () => {
         <h2>Skills</h2>
         <ol className="list">
           <li className="item">
-            <h2>Languages</h2>
-            {/* TODO: Add languages here */}
-          </li>
-          <li className="item">
-            <h2>Technology</h2>
+            <h2>Technologies</h2>
             {/* TODO: Add technologies here */}
           </li>
           <li className="item">

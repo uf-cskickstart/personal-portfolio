@@ -12,6 +12,7 @@ function App() {
     <div className="App">
       <Router>
         <Navbar/>
+        {/* URL Routing: Associates components with paths */}
         <Routes>
           <Route path="/" element={<Home/>}></Route>
           <Route path="/about" element={<About/>}></Route>
