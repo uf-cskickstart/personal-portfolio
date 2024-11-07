@@ -10,7 +10,7 @@ const Home = () => {
       <div className="intro">
 
         {/* TODO: Add a headline */}
-        {/* <h2>Text Here<h2> */}
+        {/* <h2>Text Here</h2> */}
 
         <div className="prompt">
           {/* TODO: Add a one-liner about you */}
