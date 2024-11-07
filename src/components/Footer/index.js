@@ -5,6 +5,7 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 import EmailIcon from '@mui/icons-material/Email';
 import "./Footer.css"
 
+/* ==== TODO: Update the links! ==== */
 const Footer = () => {
   return (
     <div className="footer">

@@ -1,17 +1,38 @@
 import React from 'react'
-import {
-  VerticalTimeline,
-  VerticalTimelineElement,
-} from "react-vertical-timeline-component";
-import "react-vertical-timeline-component/style.min.css";
-import SchoolIcon from '@mui/icons-material/School';
-import WorkIcon from '@mui/icons-material/Work';
 import './Experiences.css'
+import image from '../../images/proj1.jpg'
+
 
 const Experiences = () => {
   return (
-    <div>
-      {/* TODO: Reference https://www.npmjs.com/package/react-vertical-timeline-component to see how VerticalTimeline and VerticalTimelineElement should be used */}
+    <div class="experience">
+      <h1>My Experience</h1>
+      
+      <div class="experienceList">
+        {/* TODO: Update experience items. Add more if you need to! */}
+        <div class="experienceItem">
+          <div style={{backgroundImage: `url(https://placehold.co/600x400)`}} className='bgImage'/>
+          <div>
+            <h1>Position 1</h1>
+            <p>Dates</p>
+          </div>
+        </div>
+        <div class="experienceItem">
+          <div style={{backgroundImage: `url(https://placehold.co/600x400)`}} className='bgImage'/>
+          <div>
+            <h1>Position 2</h1>
+            <p>Dates</p>
+          </div>
+        </div>
+        <div class="experienceItem">
+          <div style={{backgroundImage: `url(https://placehold.co/600x400)`}} className='bgImage'/>
+          <div>
+            <h1>Position 3</h1>
+            <p>Dates</p>
+          </div>
+        </div>
+      </div>
+
     </div>
   )
 }
